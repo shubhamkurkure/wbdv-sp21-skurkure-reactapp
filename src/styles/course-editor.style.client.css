@@ -1,0 +1,164 @@
+
+.mainBody {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.moduleSelected{
+  background-color:#007bff !important
+}
+
+.courseEditorBtn{
+    background: transparent;
+    margin-right: 1em;
+}
+
+.addlessonbtn {
+    background: transparent;
+}
+
+.courseSectionTitle{
+  width: 90%;
+  color:white
+}
+
+.courseSectionIcon{
+ color:white;
+}
+
+.btn-secondary{
+  border-color:transparent
+}
+
+.courseSectionAdd{
+    text-align: right;
+    padding-right: 6px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+}
+
+.headingInputText{
+    margin-left:2em;
+    margin-right:2em;
+    margin-bottom:0.7em;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height:100%
+}
+
+.courseSection{
+    padding: 0.5em;
+    width: 20%;
+}
+
+.courseSectionModule {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top:1.5em;
+    padding-left:1em
+}
+
+.courseModuleTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+}
+
+.courseModuleTitle-button {
+    flex-grow: 19;
+}
+
+.topicContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.topicPreview {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.topicHeadingRow {
+    display: flex;
+    flex-direction: column;
+}
+
+.topic-add-heading-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.btntopicHeader {
+    margin: 0 0.5em;
+}
+
+
+.topicPreview {
+    margin: 2em 2em;
+}
+
+.topicHeadHeader {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
+.topicHeadHeader-left {
+    margin: 0 2em;
+    width: 50%;
+}
+.topicHeadHeader-right {
+    margin: 0 2em;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.topic-add-heading-row {
+    margin: 2em;
+}
+
+#collapseBtn {
+    display: none;
+    margin: 0.5em;
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+    .content {
+        flex-direction: column;
+        height:auto
+    }
+    .courseSection {
+        width: 95%;
+        margin:0.5em auto;
+    }
+    .courseSectionModule {
+        width: 100%;
+
+    }
+    #collapseBtn {
+        display: inline;
+    }
+
+    .topicHeadHeader-left{
+      margin: 0 0 0 1em;
+    }
+}
