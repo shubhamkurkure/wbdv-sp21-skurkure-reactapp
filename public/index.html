@@ -17,5 +17,17 @@
 <noscript>You need to enable JavaScript to run this app.</noscript>
 <div id="root"></div>
 
+<script>
+    var pathname = window.location.pathname;
+    var courseHoverBtn = document.getElementById('addCourseHoverBtn');
+    var CourseTitle = document.getElementById('newCourseTitle');
+    var CourseNavBtn = document.getElementById('addCourseNavBtn');
+    if(pathname==='/courses/editor'){
+        courseHoverBtn.style.display="none";
+        CourseNavBtn.style.display="none";
+        CourseTitle.style.display="none";
+    }
+</script>
+
 </body>
 </html>

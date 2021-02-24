@@ -63,7 +63,7 @@ class CourseManager extends React.Component {
             <div>
 
 
-                <button type="button" onClick={this.addCourse}
+                <button type="button" onClick={this.addCourse} id="addCourseHoverBtn"
                         className="btn btn-danger addCourse addCourseHover">
                     <i className="fas fa-plus"/>
                 </button>
@@ -82,7 +82,7 @@ class CourseManager extends React.Component {
                                placeholder="New course title"/>
                     </div>
                     <div className="col-1">
-                        <button type="button" onClick={this.addCourse}
+                        <button type="button" onClick={this.addCourse} id="addCourseNavBtn"
                                 className="btn btn-danger addCourse">
                             <i className="fas fa-plus"/>
                         </button>
